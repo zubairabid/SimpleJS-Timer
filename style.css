@@ -1,15 +1,15 @@
 body{
 	text-align: center;
-	background: #00ECB9;
+	background: #2c2d2e;
 	font-family: sans-serif;
 	font-weight: 100;
 }
 
 h1{
-	color: #396;
+	color: #ffffff;
 	font-weight: 100;
-	font-size: 40px;
-	margin: 40px 0px 20px;
+	font-size: 12vh;
+	margin: 40px 0px 40px;
 }
 
 #clockdiv{
@@ -22,14 +22,16 @@ h1{
 }
 
 #clockdiv > div{
+	border-radius: 1vh;
 	padding: 3vh;
-	background: #00BF96;
+	background: #a10023;
 	display: inline-block;
 }
 
 #clockdiv div > span{
+	border-radius: 1vh;
 	padding: 2vh;
-	background: #00816A;
+	background: #700018;
 	display: inline-block;
 }
 
